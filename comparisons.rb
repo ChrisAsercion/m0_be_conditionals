@@ -61,24 +61,32 @@ puts "Is number_students less than or equal to 21?", number_students <=21
 
 puts 4 < 9
 #YOU DO: Explain.
-#The code will output a boolean answer to the question, "4 < 9". Beacause 4 is less than 9, the answer will be false
+# The code will output a boolean answer to the question, "4 < 9". Beacause 4 is less than 9, the answer will be false
 
 books = 3
 puts 4 < books
 # YOU DO: Explain.
-#The first line of text is declaring an integer. It is saying the variable `books` is equal to the number 3.
-#The second line of text will display a boolean answer to the question "is 4 less than the amount of books".
-#When the code is ran, it should read false because 4 is larger than the amount of books declared. 
+# The first line of text is declaring an integer. It is saying the variable `books` is equal to the number 3.
+# The second line of text will display a boolean answer to the question "is 4 less than the amount of books".
+# When the code is ran, it should read false because 4 is larger than the amount of books declared. 
 
 friends = 6
 siblings = 2
 puts friends > siblings
 # YOU DO: Explain.
+# The first and the second line are both declaring integer variables. Line 1 states that variable `friends` is equal to the value of 6.
+# The second line of this code declares variable `siblings` is equal to the value of 2.
+# The third line displays the boolean answer to the question, "is friends greater than siblings?".
+# When this code is ran, it should display true because the value of 6 is greater than the value of 2. 
 
 attendees = 9
 meals = 8
 puts attendees != meals
 # YOU DO: Explain.
+# Like the example above, the first and second lines are declaring integer variables. Line 1 declares that variable `attendees` is equal to 9.
+# The second line declares that the variable `meals` is equal to the value of 8.
+# the third line displays the answer to the question, "Does attendees not equal to meals?"
+# When the code is ran, it should display true because the value of attendees does not equal the value of meals.
 
 
 #-------------------
@@ -101,15 +109,21 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
+puts loves_to_play && loves_treats
 
 
 # Determine if the dog loves to play and loves the dog park
+puts loves_to_play && loves_dog_park
 
 
 # Determine if the dog loves to play or loves the dog park
+puts loves_to_play || loves_dog_park
 
 
 # Determine if the dog loves to play and is a puppy
+puts loves_to_play && age < 2
 
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+# ANSWER: The first part of the question asked if the dog loves to play. This variable is referring to `loves_to_play`, which is the first variable in the code. 
+# ANSWER: The second part of the question asked if the dog is a puppy. On a quick google search I found that dogs are fully grown by 24 months, so I created the conditional `age < 2`
+# ANSWER: The conditional `age < 2` will check if the dog has an age less than 2, and therefore a puppy.
