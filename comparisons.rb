@@ -61,7 +61,7 @@ puts "Is number_students less than or equal to 21?", number_students <=21
 
 puts 4 < 9
 #YOU DO: Explain.
-# The code will output a boolean answer to the question, "4 < 9". Beacause 4 is less than 9, the answer will be false
+# The code will output a boolean answer to the question, "4 < 9". Because 4 is less than 9, the answer will be false
 
 books = 3
 puts 4 < books
